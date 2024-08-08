@@ -41,7 +41,7 @@ function TakeInput() {
     ShowAmount.innerHTML = `${UserAmount}`;
     ShowNumber.innerHTML = `${UserMobileNumber}`;
 
-    ShowAmount.classList.add("text-4xl", "font-bold", "text-black","text-center", "ml-5");
+    ShowAmount.classList.add("text-4xl", "font-bold", "text-black","text-center", );
     ShowTime_Date();
     ShowRandomNumber();
     ShowAmount1();

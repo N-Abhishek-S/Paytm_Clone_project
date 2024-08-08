@@ -25,6 +25,7 @@ SubmitBtn.addEventListener("click", function() {
         Firstanimation();
         TakeInput();
         BacktoHome();
+        
 });
 
 
@@ -103,4 +104,4 @@ function BacktoHome(){
 function conformation_Sound(){
     const music = new Audio("Paytm_Sound.mp3");
     music.play();
-}
+};
